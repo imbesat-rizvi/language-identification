@@ -1,6 +1,6 @@
 # language-identification
 
-![Language identification inference demo](demo/language-identification.mp4)
+![Language identification inference demo](demo/language-identification.mov)
 
 Tfidf feature based machine learning model for language identification. The model is trained using the huggingface dataset "[papluca/language-identification](https://huggingface.co/datasets/papluca/language-identification)". 
 
