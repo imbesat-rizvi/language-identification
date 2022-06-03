@@ -1,6 +1,6 @@
 # language-identification
 
-![Language identification inference demo](demo/language-identification.gif)
+![Language identification prediction demo](demo/language-identification.gif)
 
 Tfidf feature based machine learning model for language identification. The model is trained using the huggingface dataset "[papluca/language-identification](https://huggingface.co/datasets/papluca/language-identification)". 
 
@@ -17,7 +17,7 @@ To train the model, execute:
 python3 train.py --save_dir train_out
 ```
 
-To infer using the trained model, execute:
+To predict using the trained model, execute:
 ```
-python3 infer.py --load_dir train_out --proba_th 0.3
+python3 predict.py --load_dir train_out --proba_th 0.3
 ```

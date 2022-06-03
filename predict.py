@@ -26,7 +26,7 @@ def predict(texts, vectorizer, label_encoder, model, proba_th=0.5):
     return y
 
 
-def infer(
+def run_prediction(
     load_dir="train_out",
     proba_th=0.5,
 ):
@@ -51,7 +51,7 @@ def infer(
 
 if __name__ == "__main__":
     parser = ArgumentParser(
-        description="Continuous inference for language identification for languages"\
+        description="Continuous prediction for language identification for languages"\
         " in the papluca/language-identification huggingface dataset. Unseen "\
         " languages will be reported as Other.",
     )
@@ -71,4 +71,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    infer(load_dir=args.load_dir, proba_th=args.proba_th)
+    run_prediction(load_dir=args.load_dir, proba_th=args.proba_th)
