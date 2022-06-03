@@ -1,12 +1,12 @@
 # language-identification
 
-![Language identification inference demo](demo/language-identification.gif)
+![Language identification inference demo](demo/language-identification.mov)
 
 Tfidf feature based machine learning model for language identification. The model is trained using the huggingface dataset "[papluca/language-identification](https://huggingface.co/datasets/papluca/language-identification)". 
 
 The dataset was created by collecting data from 3 sources: [Multilingual Amazon Reviews Corpus](https://huggingface.co/datasets/amazon_reviews_multi), [XNLI](https://huggingface.co/datasets/xnli), and [STSb Multi MT](https://huggingface.co/datasets/stsb_multi_mt).
 
-The dataset contains text in 20 languages, which are:
+The dataset contains text in the following 20 languages:
 
 `
 arabic (ar), bulgarian (bg), german (de), modern greek (el), english (en), spanish (es), french (fr), hindi (hi), italian (it), japanese (ja), dutch (nl), polish (pl), portuguese (pt), russian (ru), swahili (sw), thai (th), turkish (tr), urdu (ur), vietnamese (vi), and chinese (zh)
