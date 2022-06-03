@@ -19,5 +19,5 @@ python3 train.py --save_dir train_out
 
 To infer using the trained model, execute:
 ```
-python3 infer.py --load_dir train_dir --proba_th 0.3
+python3 infer.py --load_dir train_out --proba_th 0.3
 ```
