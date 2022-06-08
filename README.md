@@ -27,7 +27,7 @@ python3 train.py --save_dir train_out
 
 The python version used is 3.8
 
-##### Prediction and accounting for unseen language during training:
+##### Prediction and accounting for unseen languages during training:
 
 The trained model will only return prediction and probabilities for the 20 languages seen during training. Thus, using the model as is will incorrectly classify to one of those seen language categories even when the new text belongs to an unseen language. To address this, we use probability thresholding on the class with highest probability and report that class only when its probability is more than the threshold, otherwise report the class to be 'Other' i.e. such a language was not seen during training. 
 
